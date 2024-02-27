@@ -1,0 +1,51 @@
+/* Texts */
+#franchise-title {
+    color: var(--red, #EE404A);
+    text-align: center;
+}
+#franchise-explore p,
+.benefit-frame p {
+    text-align: center;
+}
+
+/* Container */
+#franchise-container {
+    gap: 3.125rem;
+}
+#benefit-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+.main-container > * {
+    z-index: 1;
+}
+
+/* Introduction */
+#franchise-intro {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+/* Benefit */
+.benefit-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    width: 11.5rem;
+}
+.benefit-img {
+    width: 11.5rem;
+    height: 11.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#franchise-explore {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}

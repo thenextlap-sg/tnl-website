@@ -1,0 +1,229 @@
+/* Thumbnail */
+#homepage-thumbnail {
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    top: 60px;
+    height: calc(100vh - 60px);
+    width: 100vw;
+    background: var(--white);
+    z-index: 1;
+}
+#homepage-thumbnail.hide {
+    display: none;
+}
+#thumbnail-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#thumbnail-video.mask {
+    mask: url("../images/decor/TNL Human.svg") no-repeat 50%;
+    mask-position: bottom;
+    mask-size: cover;
+}
+
+/* Containers 1 */
+.intro-service-frame {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30rem;
+    gap: 1.75rem;
+}
+.intro-service-frame p,
+.intro-service-frame h1 {
+    margin: 0px;
+}
+
+/* Introduction */
+#section-1 {
+    position: relative;
+    min-height: calc(100vh - 84px);
+    align-items: flex-start;
+}
+#intro-frame {
+    position: relative;
+    border-radius: 15px;
+    background: var(--white, #FFF);
+    padding: 1.25rem;
+    z-index: 2;
+}
+#intro-frame .title {
+    color: var(--red);
+}
+#intro-graphic {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background: url("../images/decor/TNL Human.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    z-index: 0;
+}
+
+/* Services */
+#section-2 {
+    position: relative;
+    background: var(--blue, #0087CD);
+    min-height: calc(100vh - 84px);
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6.25rem;
+}
+#service-rec-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    position: relative;
+    color: var(--white);
+}
+#service-frame p,
+#service-frame h1 {
+    color: var(--white);
+    margin: 0px;
+    padding-bottom: 0px;
+}
+#service-rec {
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#service-clouds {
+    height: 15vw;
+    background: url("../images/decor/Clouds.svg"), var(--blue);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+/* Containers 2 */
+.tuition-enrich-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.75rem;
+    z-index: 2;
+}
+.tuition-enrich-frame {
+    display: inline-flex;
+    padding: 1.875rem 1.25rem;
+    border-radius: 20px;
+    width: 30rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.tuition-enrich-frame p {
+    text-align: center;
+}
+.tuition-enrich-frame h1 {
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 0.25rem 0rem;
+    margin: 0px;
+}
+.background-container {
+    display: flex;
+    background: rgba(0, 0, 0, 0.30);
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 0;
+    overflow: hidden;
+}
+
+/* Tuition */
+#section-3 {
+    position: relative;
+    min-height: calc(100vh - 84px);
+}
+#tuition-container {
+    position: relative;
+}
+#tuition-frame {
+    background: var(--yellow, #FCB813);
+}
+#tuition-frame h1 {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+/* Enrichment */
+#section-4 {
+    position: relative;
+    min-height: calc(100vh - 84px);
+}
+#enrich-container {
+    position: relative;
+    float: right;
+}
+#enrich-frame {
+    background: var(--blue);
+}
+#enrich-frame p,
+#enrich-frame h1 {
+    color: var(--white);
+}
+#enrich-frame h1 {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/* Background imgs */
+.background-imgs {
+    display: block;
+    width: 300px;
+    height: 225px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+}
+.background-overlay {
+    background: rgba(0, 0, 0, 0.50);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+}
+
+/* Transitions */
+#thumbnail-video {
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;                  
+    -moz-transition: all 0.5s ease-in-out;                 
+    -o-transition: all 0.5s ease-in-out;   
+    -ms-transition: all 0.5s ease-in-out;     
+}
+
+/* Adaptive */
+@media screen and (min-width: 1170px) {
+    .home #tuition-container {
+        left: 13rem;
+    }
+    .home #enrich-container {
+        right: 13rem;
+    }
+}
+@media screen and (max-width: 1170px) {
+    #service-rec-container{
+        order: 2;
+    }
+    #service-frame {
+        order: 1;
+    }
+}
+@media screen and (max-width: 660px) {
+    #section-1 {
+        align-items: center;
+    }
+}

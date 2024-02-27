@@ -1,0 +1,130 @@
+/* Footer */
+.h4,
+.caption {
+    margin: 0px;
+}
+#footer-container {
+    width: 100vw;
+    flex-shrink: 0;
+    background: var(--white);
+}
+
+/* Text styles */
+#site-container a {
+    height: fit-content;
+}
+
+/* Logo */
+#site-logo {
+    display: flex;
+    width: 8.75rem;
+    height: 8.75rem;
+    justify-content: center;
+    align-items: center;
+}
+#site-tnl-logo {
+    height: 8.125rem;
+    flex-shrink: 0;
+}
+
+/* Info Section */
+#info-container {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    height: 100%;
+    padding: 2.25rem 3.125rem;
+    gap: 1.25rem;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+}
+.info-tel {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+}
+
+/* Sitemap Section */
+#site-container {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 50px;
+    background: var(--yellow);
+    height: fit-content;
+    flex-shrink: 0;
+    padding: 35px 75px 35px;
+    position: absolute;
+    right: 0px;
+}
+.sites {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+    width: 120px;
+}
+.sub-site-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+.sub-sites {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+.footer-mid {
+    display: none;
+}
+.footer-large {
+    display: flex;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 1300px) {
+    .footer-mid {
+        display: flex;
+    }
+    .footer-large {
+        display: none;
+    }
+}
+@media screen and (max-width: 1160px) {
+    .info-tel {
+        flex-direction: row;
+    }
+    #site-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        background: var(--yellow);
+        height: fit-content;
+        padding: 35px 50px 35px 50px;
+        position: absolute;
+        left: 0px;
+    }
+}
+@media screen and (max-width: 660px){
+    .info-tel {
+        flex-direction: column;
+    }
+    #site-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        background: var(--yellow);
+        height: fit-content;
+        padding: 35px 50px 35px 50px;
+        position: absolute;
+        left: 0px;
+    }
+}

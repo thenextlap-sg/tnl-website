@@ -1,0 +1,66 @@
+/* Texts */
+#enrich-title {
+    color: var(--red, #EE404A);
+    text-align: center;
+}
+
+/* Container */
+#enrich-container {
+    gap: 3.125rem;
+}
+#flower-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+/* Enrichment */
+.flower-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.flower-img {
+    width: 25rem;
+    height: 25rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*
+    Circlize the images
+    Note: 990px = flower-img-width (25rem ~ 400px) * 2 + gap (40px) + page-margin (75px) * 2
+*/
+@media screen and (min-width: 990px) {
+    #flower-container :nth-child(odd) .flower-img {
+        border-radius: 200px 0px 0px 200px;
+    }
+    #flower-container :nth-child(even) .flower-img {
+        border-radius: 0px 200px 200px 0px;
+    }
+    #flower-container :nth-child(1) .flower-img {
+        border-radius: 200px 200px 0px 200px;
+    }
+    #flower-container :nth-child(2) .flower-img {
+        border-radius: 200px 200px 200px 0px;
+    }
+    #flower-container :nth-last-child(2) .flower-img {
+        border-radius: 200px 0px 200px 200px;
+    }
+    #flower-container :nth-last-child(1) .flower-img {
+        border-radius: 0px 200px 200px 200px;
+    }
+    #flower-container :nth-last-child(-n + 2) p {
+        order: 2;
+    }
+}
+@media screen and (max-width: 990px) {
+    #flower-container .flower-frame .flower-img {
+        border-radius: 200px 200px 200px 200px;
+    }
+}

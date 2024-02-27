@@ -1,0 +1,202 @@
+/* Texts */
+#service-title {
+    color: var(--red, #EE404A);
+    text-align: center;
+}
+h1 {
+    display: block;
+    text-align: center;
+}
+
+/* Container */
+.service-container {
+    gap: 3.75rem;
+}
+#activity-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.75rem;
+    background: url('../images/decor/Handbook.svg') no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 6.25rem 0rem;
+    width: 100vw;
+}
+.service-container h1,
+#activity-container h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Intro */
+#service-intro-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+    gap: 1.25rem;
+}
+.service-intro-text {
+    display: flex;
+    width: 50%;
+    padding: 1.875rem 2.5rem;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 20px;
+    border: 3px solid var(--red, #EE404A);
+}
+#intro-text-1 {
+    background: var(--white, #FFF);
+    color: var(--red);
+}
+#intro-text-2 {
+    background: var(--red);
+    color: var(--white, #FFF);
+}
+#service-intro-img {
+    height: 40vw;
+    background-size: cover;
+}
+
+/* Program */
+#program-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    gap: 1rem;
+}
+#program-img {
+    width: 100%;
+    background-size: contain;
+}
+.program-text {
+    width: 50%;
+    justify-content: center;
+    align-items: flex-start;
+    color: var(--white);
+    margin: 0px;
+}
+
+/* Holiday */
+#holiday-frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#holiday-img {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    z-index: 1;
+}
+.holiday-sub-img {
+    width: 50vw;
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#holiday-center {
+    width: 75vw;
+    height: 30vw;
+    transition: all 0.3s ease;
+}
+#holiday-text {
+    display: flex;
+    width: 50%;
+    padding: 0rem 2.5rem;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0px;
+}
+.holiday-button {
+    position: absolute;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 2px solid var(--red, #EE404A);
+    cursor: pointer;
+    background: var(--white, #FFF);
+    color: var(--red, #EE404A);
+}
+.holiday-button:hover {
+    transition: all 0.3s ease-in-out;
+    background: var(--red, #EE404A); 
+    color: var(--white, #FFF);
+}
+#holiday-left-button {
+    left: 4vw;
+}
+#holiday-right-button {
+    right: 4vw;
+}
+#holiday-content {
+    display: none;
+}
+
+/* Activities */
+#activity-frame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 6.25rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px 4.75rem;
+}
+#activity-img-frame {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 600px;
+    gap: 0px;
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+.activity-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    gap: 0.25rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#activity-text {
+    width: 30vw;
+    margin: 0px;
+    color: var(--white, #FFF);
+}
+
+/* Scaling */
+@media screen and (max-width: 1170px) {
+    #service-intro-frame {
+        width: 50vw;
+    }
+    #service-intro-img {
+        height: 50vw;
+    }
+    #program-frame {
+        width: 80vw;
+    }
+    #activity-container {
+        border-radius: 50px;
+        background: var(--blue, #0087CD);
+    }
+    #activity-text {
+        width: 50vw;
+    }
+}

@@ -1,0 +1,205 @@
+/* Nav container */
+#nav-container {
+    width: 100vw;
+    height: 85px;
+    flex-shrink: 0;
+    background: var(--white);
+    position: fixed;
+    z-index: 3;
+}
+#nav-container.sticky {
+    height: 60px;
+}
+
+/* TNL Logo */
+#tnl-logo {
+    display: flex;
+    height: calc(100% - 25px);
+    margin: 10px 0px;
+    padding: 0.24rem;
+    position: absolute;
+    left: 4.75rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+#tnl-logo.sticky {
+    left: 6.25rem;
+    flex-shrink: 0;
+}
+
+/* Nav text */
+.nav-item:hover.nav-text,
+.nav-item:hover .nav-text,
+.nav-subtext:hover {
+    color: var(--red);
+}
+.nav-text,
+.nav-subtext {
+    color: var(--dark);
+    text-decoration: none;
+}
+
+/* Nav CTA button */
+#cta-container {
+    display: inline-flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+#nav-cta {
+    padding: 0.6rem 1.875rem;
+    border-radius: 30px;
+    border: 2px solid var(--red);
+    background: var(--yellow);
+}
+#nav-cta.sticky {
+    padding: 0.3rem 1.875rem;
+}
+#nav-cta.nav-text:hover {
+    color: var(--red);
+}
+
+/* Transitions */
+#nav-container,
+#nav-menu,
+#nav-logo {
+    -webkit-transition: all 0.3s ease-in-out;                  
+    -moz-transition: all 0.3s ease-in-out;                 
+    -o-transition: all 0.3s ease-in-out;   
+    -ms-transition: all 0.3s ease-in-out;          
+    transition: all 0.3s ease-in-out;
+}
+
+/* Adaptive */
+@media screen and (min-width: 960px) {
+    /* Nav elements */
+    #nav-list {
+        display: inline-flex;
+        height: 100%;
+        align-items: center;
+        gap: 3rem;
+        flex-shrink: 0;
+        position: absolute;
+        left: 180px;
+    }
+    .nav-item {
+        display: inline-flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+    }
+    .nav-item:hover {
+        border-bottom: 2px solid var(--red);
+    }
+    #cta-container {
+        position: absolute;
+        right: 75px;
+    }
+
+    /* Dropdown button */
+    #header-service::after {
+        content: "\25BE";
+    }
+    #dropdown {
+        float: left;
+        overflow: hidden;
+        justify-content: flex-start;
+    }
+    #dropdown-content {
+        display: none;
+        padding: 1.5rem 2.5rem 1.5rem 1.25rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+        background: var(--white);
+        z-index: -1;
+
+        position: absolute;
+        top: 85px;
+        left: 80px;
+    }
+    #dropdown-content.sticky {
+        top: 60px;
+    }
+    #dropdown:hover #dropdown-content {
+        display: inline-flex;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    /* Sidebar container */
+    #sidebar-container {
+        display: none;
+        position: absolute;
+        right: 0px;
+        top: 85px;
+        width: 300px;
+        padding: 1.5rem 2.5rem 1.5rem 1.25rem;
+        background: var(--white, #FFF);
+    }
+    #sidebar-container.sticky {
+        top: 60px;
+    }
+
+    /* Menu button */
+    #nav-menu {
+        position: absolute;
+        right: 40px;
+        top: calc(124px / 2 - 30px);
+        cursor: pointer;
+    }
+    #nav-menu::before {
+        content: '\2630';
+        display: block;
+        font-size: 1.5rem;
+        color: var(--red);
+    }
+    #nav-menu.mouse-down::before {
+        content: '\00d7';
+        padding-right: 5px;
+    }
+    #nav-menu.sticky {
+        top: calc(84px / 2 - 20px);
+    }
+
+    /* Nav elements */
+    #nav-list {
+        width: 100%;
+    }
+    .nav-item {
+        display: block;
+        width: 100%;
+        padding: 1rem 1.875rem;
+    }
+
+    /* CTA button */
+    #cta-container {
+        position: relative;
+        top: 8px;
+        width: 100%;
+        justify-content: start;
+    }
+    #nav-cta,
+    #nav-cta.sticky {
+        width: 100%;
+        border-radius: 0px;
+        background: var(--yellow);
+    }
+
+    /* Dropdown button */
+    #header-service::after {
+        content: "\25BE";
+    }
+    #dropdown-content {
+        display: block;
+        width: 100%;
+        padding: 1.875rem 0rem 0rem 1.875rem;
+    }
+    .nav-subtext {
+        padding: 1.875rem 1rem 0rem 0rem;
+    }
+}
