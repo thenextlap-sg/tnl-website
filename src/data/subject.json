@@ -1,7 +1,7 @@
 [
     {
         "SubjectID": 1,
-        "Subject": "Mathematics, Science, English, Chinese (Mother Tongue)",
+        "Subject": "Mathematics",
         "ClassName": "Pre-Primary / Primary"
     },
     {
@@ -18,5 +18,20 @@
         "SubjectID": 4,
         "Subject": "General Science",
         "ClassName": "Secondary"
+    },
+    {
+        "SubjectID": 5,
+        "Subject": "Science",
+        "ClassName": "Pre-Primary / Primary"
+    },
+    {
+        "SubjectID": 6,
+        "Subject": "English",
+        "ClassName": "Pre-Primary / Primary"
+    },
+    {
+        "SubjectID": 7,
+        "Subject": "Chinese (Mother Tongue)",
+        "ClassName": "Pre-Primary / Primary"
     }
 ]
