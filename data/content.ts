@@ -46,7 +46,7 @@ export const contentDb = [
         "Section": "About4",
         "Heading": "Adaptability",
         "Body": "",
-        "URL": "Value1.png",
+        "URL": "images/Value1.png",
         "Caption": "An outlined graphic of conversion"
     },
     {
@@ -54,7 +54,7 @@ export const contentDb = [
         "Section": "About4",
         "Heading": "Confidence",
         "Body": "",
-        "URL": "Value2.png",
+        "URL": "images/Value2.png",
         "Caption": "An outlined graphic of a confident person"
     },
     {
@@ -62,7 +62,7 @@ export const contentDb = [
         "Section": "About4",
         "Heading": "Innovative",
         "Body": "",
-        "URL": "Value3.png",
+        "URL": "images/Value3.png",
         "Caption": "An outlined graphic of a smart tool"
     },
     {
@@ -70,7 +70,7 @@ export const contentDb = [
         "Section": "About4",
         "Heading": "Perseverance",
         "Body": "",
-        "URL": "Value4.png",
+        "URL": "images/Value4.png",
         "Caption": "An outline graphic of a person climb a mountain"
     },
     {
@@ -78,7 +78,7 @@ export const contentDb = [
         "Section": "About4",
         "Heading": "Resilience",
         "Body": "",
-        "URL": "Value5.png",
+        "URL": "images/Value5.png",
         "Caption": "An outline graphic of an elastic wall"
     },
     {
@@ -86,7 +86,7 @@ export const contentDb = [
         "Section": "About4",
         "Heading": "Respect",
         "Body": "",
-        "URL": "Value6.png",
+        "URL": "images/Value6.png",
         "Caption": "An outline graphic of a child greeting the elderly"
     },
     {
@@ -94,7 +94,7 @@ export const contentDb = [
         "Section": "About4",
         "Heading": "Self-Discipline",
         "Body": "",
-        "URL": "Value7.png",
+        "URL": "images/Value7.png",
         "Caption": "An outline graphic of a moon"
     },
     {
@@ -188,7 +188,7 @@ export const contentDb = [
         "Section": "Tuition1",
         "Heading": "Classrooms",
         "Body": "We have a small group size per class to ensure that students get ample space and receive ample attention",
-        "URL": "Facility1.jpeg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczNrN_WO-rIdAMCDAKMKB3aakaA3q-Iv8LcSiTL7bkYHUsKljVZ3JQImlvIqMMbeLGP9_QmrzIRRyQI-tcjC-nQoUNZmg44WxHsObpks58lDghE9DEo=w1200",
         "Caption": "A room with full of student table and chairs"
     },
     {
@@ -196,7 +196,7 @@ export const contentDb = [
         "Section": "Tuition1",
         "Heading": "Recreations Room",
         "Body": "This is where children learn beyond their school curriculum, learning arts & craft, music etc. and play with their peers",
-        "URL": "Facility2.jpeg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczPs47gp5qLdAJ6KOW1uWi3Suyal31KEDGrjCEj_o-EY3VCV48mjXVIRgQdV1fLksS40tpooOI59Ug8-Rusdh2nC2dq43AUnfeQNmfTsYNfiy6rmoDE=w1200",
         "Caption": "A picture of student playing the the room"
     },
     {
@@ -204,7 +204,7 @@ export const contentDb = [
         "Section": "Tuition1",
         "Heading": "Living Area",
         "Body": "Like their own home, this where students conduct their self-directed studying, do assignments and even learn how to cook!",
-        "URL": "Facility3.jpeg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczO3MtPjcMIVnMyKe63GFrJqhMNVfO7aP2j6-Lm4PbRITpCv18nKUfdJHanZ3thSAAOllBXupeMmFfVBj5eICCcmWUEleppEefPHkPgVCmt78NNhlg4=w1200",
         "Caption": "A picture of the kitchen"
     },
     {
@@ -212,7 +212,7 @@ export const contentDb = [
         "Section": "Tuition1",
         "Heading": "Admin/E-Learning Area",
         "Body": "This is where the kids do their E-Learning and where all administrative matters are done. You can find out more about our centre's curriculum and schedule here!",
-        "URL": "Facility4.jpeg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczO8Nd5GZTl9OkEB-F9HfDttQO8MUXbkKp7nzguJcg06WmhrmOpgZm1zlzX9LU0226zVwminj-5PQG1jV67uZ_0EOktDfe1sOiEuZ2E2vRp_N78pwGI=w1200",
         "Caption": "A picture of a student with a computer"
     },
     {
@@ -226,7 +226,7 @@ export const contentDb = [
         "Section": "Enrichment2",
         "Heading": "Programming certificates",
         "Body": "",
-        "URL": "Skill1.png",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczPr-9HRVEyGG84Q0GeHHHcDWyzv32mlltvYHKkU7By75EJYFsKeQpSECe45SYPU6SDHJqI35MY19Jg9zckfDoKMlz1HXOe-4H4BJNY2_sU4qpWOPdQ=w800",
         "Caption": "A picture of the code for a program"
     },
     {
@@ -234,7 +234,7 @@ export const contentDb = [
         "Section": "Enrichment2",
         "Heading": "Martial arts",
         "Body": "",
-        "URL": "Skill2.png",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczP8cMFbMX_F2zFzbF_SPW4-VpM8J3lMjLWO0ZybEK0FtogTkc2fFM_x8_CjAERqkzFUBdrP78Gf6NVQB3Gapo4_2I8ld5TIpKEgLty68H8eZSZZVUk=w800",
         "Caption": "A picture of a girl doing some moves"
     },
     {
@@ -242,7 +242,7 @@ export const contentDb = [
         "Section": "Enrichment2",
         "Heading": "Public speaking",
         "Body": "",
-        "URL": "Skill3.jpg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczNhuNbO-EzAczTsiUV9-etpIk8meQdv2-birrnGE4qqbc_qASAdH2AZo1v4UDLY-z8s5Sjfj6QxVv8cVYqxVAdM7GbctBNBZKQkSt8qYH5J6c4l39w=w800",
         "Caption": "A picture of a person talking in front of many people"
     },
     {
@@ -250,7 +250,7 @@ export const contentDb = [
         "Section": "Enrichment2",
         "Heading": "Debating",
         "Body": "",
-        "URL": "Skill4.jpg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczMhaoe6zZI51OSJTZXjNpI-u2g1VwbBUq-cGZinj9rcOAD3v2Fler83ssT0sAEzO4CEpMEgQkdfhyJFd-MJjhN1fRM1peuB0hW1OYB1ZK7BCvHAl6I=w800",
         "Caption": "A picture of a Model United Nation (MUN) conference"
     },
     {

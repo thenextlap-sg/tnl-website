@@ -2,127 +2,127 @@ export const sectionImg = [
     {
         "ID": 1,
         "Section": "Other2",
-        "URL": "images/Thumbnail.jpg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczNKYSEjzB4pEa_K3W-TzrMKXTIeszABdWYKppennls1NeEdPbRC4CFi-Pol16mRtaQhUDOZe3UeMjKHWPoc0p977godGGxikUXJrlR12cE_G9N5DeQ=w2400",
         "Caption": "Thumbnail picture of TNL's students on a field trip"
     },
     {
         "ID": 2,
         "Section": "Home3",
-        "URL": "images/Tuition1.jpeg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczOjERJ9D8dkjASQzMG8pXveXw9Y38wCtrIb1QU14uLLDDgnRg5ppz8diReg1-LtjZf3k86YNCGfY14qMrIJtbprPfh0ZHiyygqUqh7b6D1yEGNWfBw=w400",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 3,
         "Section": "Home3",
-        "URL": "images/Tuition2.jpeg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczOJLtck8_ulA8IpMmRzSoyPLISvooCOoXfGrM0mRuT0JBoN6ofGL0riUlgMu9ZoGfccVZYmuxaCrZbzV1noZx8QUuktQcQyKgivAQAYIQ_OyfPFAM0=w400",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 4,
         "Section": "Home3",
-        "URL": "images/Tuition3.jpeg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczMDaXXchuug6ZjMospOIgl4tDT59OU3Ah4meOX_hkRXqlvCBWvXI_Y76pkjyVCvXZrQsBXg8juRG2tWhKSoLNUUkRUthlRxZTCdZoSrGD2oyjhvipY=w400",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 5,
         "Section": "Home3",
-        "URL": "images/Tuition4.jpeg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczOP5Mi9AVQQT0JK8bYp4L5FvHc2oCqdoIw3_aVcfpTXCWD9rjbVabMSNaU7EaamYs398A4c_krFHxJWicWb8IxmOCj5SAeamaTyFJGUr6HimhIHaRM=w400",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 6,
         "Section": "Home3",
-        "URL": "images/Tuition5.jpeg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczMfGG9eF98a67IaSUmG-SyiBD4hxfLIhgFkAwau2Razk2SZTG0i5y8Oqhx4RnwZonPjT9mwannz1UqO0HmU0ExPvSpUMQCtPkObM29w-8CsYAMwcAc=w400",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 7,
         "Section": "Home3",
-        "URL": "images/Tuition6.jpeg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczPQZzI-NAnVheKjhgxMDGZz1huxGxWNH4Uk_Rioxn6nZtMG_HRhxHa-w0ujX2gcDDLcXCPsomAR7vQG9unggmmx5rqVmyIaNQRKFARNbCtqlxcGi7U=w400",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 8,
         "Section": "Home3",
-        "URL": "images/Tuition7.jpeg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczMEVLCiY_gBdXfniOz-_TZoK7q9-DZyiXfNJBLOsKvdBbruJTijGoOgcAjCgbb90cvsbRVRF9zRnC3a4kOe6SZlpGju8kerRjIG6N0mNJrlGjPumCw=w400",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 9,
         "Section": "Home3",
-        "URL": "images/Tuition8.jpeg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczMYSDiCNWiUpxojosDRL4E_fwJAb3o1Q_y49ouOsEKYuK42xyFoz4u2c_514sJ_YglBNtD6PG6OwIND7I_eGnem-2HITly7B-2ZaC1C5PZuM8VxDHw=w400",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 10,
         "Section": "Home3",
-        "URL": "images/Tuition9.jpeg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczPBKfBZjf_VoCwsoOciDr6p4_f602Q_qZ-j1ysDO4yf1d1SiZW1p9M0Ty6dYXGZveOfw2xRPxdqlJkdrcyWkAwMqLE37onSyk6xmZ_WCyoUpmqFHuk=w400",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 11,
         "Section": "Home3",
-        "URL": "images/Tuition10.jpeg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczPPvo0cxCi0sQ2OhwA884pQDUhOot4ujLwYSPEF9ByL9yMV7Zx8w6K0d9f-MbRRsukEW8XRP2TcmGjlNQ5a-Jez_uebfgEUPTsbqcrkYMpp7u3v9Ak=w400",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 12,
         "Section": "Home3",
-        "URL": "images/Tuition11.jpeg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczPhihzh7HzWiWB2gjX_5_v-IpIZk0VEyF-qjHkANzNJriLvH7W84-cw6-xHV5vbRQ_Apl-KjPKKpHJeYq2WFeNPt4YximoAPpcnOU0_kYaEAXerrOo=w400",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 13,
         "Section": "Home3",
-        "URL": "images/Tuition12.jpeg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczNZLv_g7E6VUxQBS84oOwqVIXix6t4AWnDQhHivGOE9a6FROY-_kstH1sYEsFimWzgJozCpnUCTikzHTj5k5VmzDUgG2yR1c_jrcNui--0hRDbYrFg=w400",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 14,
         "Section": "Home3",
-        "URL": "images/Tuition13.jpeg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczNsq6IdsfS90NXtG-ecSndbr_gieisAxLAHU8JPfJc-1jEIiU7P-bbMpzcsgXzhNKQtRoxA6BVBpyjUJBHb-GgrhD_r61Dc_4CWz9XhUUPwovBPJ-o=w400",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 15,
         "Section": "Home3",
-        "URL": "images/Tuition14.jpeg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczND0VYrqPK6M-teC_Bxo7gOAbsTSw6-zLFtI_HQSBaazLOg-h7VLo11HkxEommnULa5PYRQvdNcupw3UOPv0B3XiKKbXEb3WRa2FRkzY7vriljrKHI=w400",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 16,
         "Section": "Home3",
-        "URL": "images/Tuition15.jpeg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczNpzQYzXUzxpL1N1L9zq0eUe52FpQ9elegsm5aUmcr5SSLGAQfrMac2St9k2IWFnmf1ERcQE-aPfnQ9oQvX3LSd6u7NH6gEonJfRfsxCA4yCk0qc7s=w400",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 17,
         "Section": "Home3",
-        "URL": "images/Tuition16.jpeg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczMAsS7OLCmtABczVx1v8XShVVGyPwhxvfLAsi9Kt-0IHTnDJ7rtD0l6xYWGxCekF-7QkDMx7634TvcTn38T4NhtBCD0flIzhcxHpvez9yk_rcGv26U=w400",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 18,
         "Section": "Home3",
-        "URL": "images/Tuition17.jpeg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczMvjck_AlXyA0LoFUPUwxUA-2CHofqaxWQszbrpTbO6IhdNNPUhpHAy5kX0hf37CdOBoariP8jA6OcH_fZzHFEEkfOGCMfbyY7NnH9HaGivk_SBOmM=w400",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 19,
         "Section": "Home3",
-        "URL": "images/Tuition18.jpeg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczMEVLCiY_gBdXfniOz-_TZoK7q9-DZyiXfNJBLOsKvdBbruJTijGoOgcAjCgbb90cvsbRVRF9zRnC3a4kOe6SZlpGju8kerRjIG6N0mNJrlGjPumCw=w400",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 20,
         "Section": "Home3",
-        "URL": "images/Tuition19.jpeg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczOO2nx_nxpKpTHCeuYfh280Yuv5ZqYVeSplbZDaGbiCjeOhysrxZ2agbdu4KGsoXnQwOX_LBj3Iz4XRXXzv0_2hOpiuNDtdV6geYSsEooKsWq84BUk=w400",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 21,
         "Section": "Home3",
-        "URL": "images/Tuition20.jpeg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczMhvLydMgtSCjp4NnH85O8CgOnZh4rhK8zmuGFdUWLqk8BxY-fXbRXWVVYerxQk_PgA99OeNAjNJY7xA0SnnvcaEMoFmfcbipfcTcMod5szCkouS9o=w400",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
@@ -230,7 +230,7 @@ export const sectionImg = [
     {
         "ID": 39,
         "Section": "Home4",
-        "URL": "https://lh3.googleusercontent.com/pw/AP1GczOEdSIGMIA1L2SSFV8tLnt1UrgsJ7CYN6PVcWe9qTR2uR0_sTzOdonf0OU7FnxjUIwCmbHKNOqT0gq8HsGfAHwvmi1vUhb5pMVZ8cygC9BqrPTEnA=w400",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczOEdSIGMIA1L2SSFV8tLnt1UrgsJ7CYN6PVcWe9qTR2uR0_sTzOdonf0OU7FnxjUIwCmbHKNOqT0gq8HsGfAHwvmi1vUhb5pMVZ8cygC9BqrPTEnA=w1200",
         "Caption": "Students on camping and field trip with TNL's staffs"
     },
     {
@@ -248,13 +248,13 @@ export const sectionImg = [
     {
         "ID": 48,
         "Section": "Service3",
-        "URL": "images/Holiday4.jpeg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczNhsDHEQz4BbWT_qOaJxaXHOBoQL5wdeZmY0HRZ3-bd2wbVM6I2If8v-0X8-Byt8UUZrhdjfqyrxdPu_8YTAKTAp2bXBUneSdBK6zTu29NxSgNIulY=w1200",
         "Caption": "June 2023 Field Trip"
     },
     {
         "ID": 47,
         "Section": "Service3",
-        "URL": "images/Holiday3.png",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczM578thNuHLMxhWBXXRLay1YO2cgigWei3m_fspxlPi1m-wtpLLk0c7Jtrzcg-PzGMoipNBH3sTuyDGhzbFt68wprkTUPsbbbLHZ5mXwAy_gQzAvCU=w1200",
         "Caption": "June 2023 Activity"
     },
     {
@@ -266,7 +266,7 @@ export const sectionImg = [
     {
         "ID": 45,
         "Section": "Service3",
-        "URL": "images/Holiday1.png",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczOGRDiBj3otHx4zcDEOruHpc9Qc5xYT0O2rmKOAKBcRxz7fzzxrMxCbQn_DWWsQzov0QuX5xTdz4e8tAjyTFpOLFAyRQwuBamRENdmnLUQTZ7AEgxk=w1200",
         "Caption": "June 2023 Field Trip"
     },
     {
@@ -284,7 +284,7 @@ export const sectionImg = [
     {
         "ID": 44,
         "Section": "Service2",
-        "URL": "images/Timetable.jpeg",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczN_ejnZjQs7LjqoW5d0qSlLPd5c4rEYd8pZGguCnIkPvNo-txXp4HDs_7X1oqtjwpXahfCpBOq31qeK21TrGlSGX69w7vU9lxKZnll1ekVg3B-fnDg=w2400",
         "Caption": "Daily schedule at The Next Lap's student centre"
     }
 ]

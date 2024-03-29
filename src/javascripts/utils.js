@@ -39,3 +39,12 @@ export const useResize = (onResize) => {
         return () => window.removeEventListener('resize', handleResize);
     }, [screenWidth, onResize]);
 }
+
+export const getImg = (imgDb, key, value) => {
+    const img = imgDb.filter(e => e[key] === value)[0];
+
+    return {
+        URL: img.URL,
+        Caption: img.Caption
+    }
+}

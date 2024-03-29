@@ -38,7 +38,7 @@ export const Careers: React.FC<CareersProps> = ({
         {/* Header */}
         <Header />
         <div className="thumbnail">
-            <img className="thumbnail-img" src={`/images/picture/${set1[0].URL}`} alt={set1[0].Caption} />
+            <img className="thumbnail-img" src={set1[0].URL} alt={set1[0].Caption} />
         </div>
 
         {/* Intro */}
