@@ -1,8 +1,8 @@
 https://www.thenextlap.com.sg/
-https://www.thenextlap.com.sg/about
-https://www.thenextlap.com.sg/student-care-services
-https://www.thenextlap.com.sg/tuition-centre
-https://www.thenextlap.com.sg/enrichment
-https://www.thenextlap.com.sg/franchise
-https://www.thenextlap.com.sg/careers
-https://www.thenextlap.com.sg/contact-us
+https://www.thenextlap.com.sg/?/about
+https://www.thenextlap.com.sg/?/student-care-services
+https://www.thenextlap.com.sg/?/tuition-centre
+https://www.thenextlap.com.sg/?/enrichment
+https://www.thenextlap.com.sg/?/franchise
+https://www.thenextlap.com.sg/?/careers
+https://www.thenextlap.com.sg/?/contact-us

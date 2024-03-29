@@ -40,7 +40,7 @@ ul {
     gap: 6.25rem;
     flex-direction: row;
     flex-wrap: wrap;
-    background: url("../images/decor/Road.svg") no-repeat;
+    background: url("../../public/images/Road.svg") no-repeat;
     background-position: center;
     background-size: contain;
 }
