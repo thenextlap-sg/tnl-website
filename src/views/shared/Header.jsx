@@ -1,3 +1,7 @@
+// The Next Lap Website
+// GNL General Public License v3
+// Copyright (c) The Next Lap. All rights reserved.
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { headerSticky, headerResponsive, headerOnclick, useResize, useScroll } from '../../javascripts';

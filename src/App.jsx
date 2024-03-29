@@ -1,3 +1,7 @@
+// The Next Lap Website
+// GNL General Public License v3
+// Copyright (c) The Next Lap. All rights reserved.
+
 import React from 'react';
 import { Routes, BrowserRouter, Route, Navigate } from 'react-router-dom';
 import { About, Careers, Contact, Enrichment, Franchise, Home, Services, Tuition } from './views';

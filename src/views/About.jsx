@@ -1,3 +1,7 @@
+// The Next Lap Website
+// GNL General Public License v3
+// Copyright (c) The Next Lap. All rights reserved.
+
 import React, { useEffect } from 'react';
 import { Header, Footer } from './shared';
 import { appResponsive, useResize } from '../javascripts';
