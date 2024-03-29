@@ -2,8 +2,7 @@
 // GNL General Public License v3
 // Copyright (c) The Next Lap. All rights reserved.
 
-import React from 'react';
-import { Link } from 'react-router-dom';
+import * as React from 'react';
 import { footerResponsive, useResize } from '../../javascripts';
 import '../../stylesheets/footer.css';
 
@@ -14,9 +13,9 @@ export const Footer = () => {
         <div id="footer-container">
             <div id="info-container">
                 <div id="site-logo">
-                    <Link to="/">
+                    <a href="/">
                         <img id="site-tnl-logo" src="/images/TNL logo_RGB.png" alt="The Next Lap Logo" />
-                    </Link>
+                    </a>
                 </div>
                 <div className="info">
                     <p className="h4">The Next Lap Edu Group</p>
@@ -43,55 +42,55 @@ export const Footer = () => {
             <div id="site-container">
                 <div className="sites">
                     <div className="sub-site-container">
-                        <Link className="h4 hyperlink-black" to="/about">About</Link>
+                        <a className="h4 hyperlink-black" href="/about">About</a>
                         <div className="sub-sites">
-                            <Link className="caption hyperlink-black" to="/about#visions">Visions</Link>
-                            <Link className="caption hyperlink-black" to="/about#missions">Missions</Link>
-                            <Link className="caption hyperlink-black" to="/about#values">Values</Link>
-                            <Link className="caption hyperlink-black" to="/about#testimonials">Testimonials</Link>
+                            <a className="caption hyperlink-black" href="/about#visions">Visions</a>
+                            <a className="caption hyperlink-black" href="/about#missions">Missions</a>
+                            <a className="caption hyperlink-black" href="/about#values">Values</a>
+                            <a className="caption hyperlink-black" href="/about#testimonials">Testimonials</a>
                         </div>
                     </div>
                     <div className="footer-mid sub-site-container">
-                        <Link className="h4 hyperlink-black" to="/franchise">Franchise</Link>
+                        <a className="h4 hyperlink-black" href="/franchise">Franchise</a>
                     </div>
                 </div>
                 <div className="sites">
                     <div className="sub-site-container">
-                        <Link className="h4 hyperlink-black" to="/student-care-services">Student <wbr />Care <wbr />Services</Link>
+                        <a className="h4 hyperlink-black" href="/student-care-services">Student <wbr />Care <wbr />Services</a>
                         <div className="sub-sites">
-                            <Link className="caption hyperlink-black" to="/student-care-services#programme">Programme</Link>
-                            <Link className="caption hyperlink-black" to="/student-care-services#holiday" >Holiday</Link>
-                            <Link className="caption hyperlink-black" to="/student-care-services#activities">Activities</Link>
+                            <a className="caption hyperlink-black" href="/student-care-services#programme">Programme</a>
+                            <a className="caption hyperlink-black" href="/student-care-services#holiday" >Holiday</a>
+                            <a className="caption hyperlink-black" href="/student-care-services#activities">Activities</a>
                         </div>
                     </div>
                     <div className="footer-mid sub-site-container">
-                        <Link className="h4 hyperlink-black" to="/careers">Careers</Link>
+                        <a className="h4 hyperlink-black" href="/careers">Careers</a>
                     </div>
                 </div>
                 <div className="sites">
                     <div className="sub-site-container">
-                        <Link className="h4 hyperlink-black" to="/tuition-centre">Tuition <wbr />Centre</Link>
+                        <a className="h4 hyperlink-black" href="/tuition-centre">Tuition <wbr />Centre</a>
                         <div className="sub-sites">
-                            <Link className="caption hyperlink-black" to="/tuition-centre#facilities">Facilities</Link>
-                            <Link className="caption hyperlink-black" to="/tuition-centre#maps">Maps</Link>
+                            <a className="caption hyperlink-black" href="/tuition-centre#facilities">Facilities</a>
+                            <a className="caption hyperlink-black" href="/tuition-centre#maps">Maps</a>
                         </div>
                     </div>
                     <div className="sub-site-container">
-                        <Link className="h4 hyperlink-black" to="/enrichment">Enrichment</Link>
+                        <a className="h4 hyperlink-black" href="/enrichment">Enrichment</a>
                     </div>
                     <div className="footer-mid sub-site-container">
-                        <Link className="h4 hyperlink-black" to="/contact-us">Contact <wbr />Us</Link>
+                        <a className="h4 hyperlink-black" href="/contact-us">Contact <wbr />Us</a>
                     </div>
                 </div>
                 <div className="footer-large sites">
                     <div className="footer-large sub-site-container">
-                        <Link className="h4 hyperlink-black" to="/franchise">Franchise</Link>
+                        <a className="h4 hyperlink-black" href="/franchise">Franchise</a>
                     </div>
                     <div className="footer-large sub-site-container">
-                        <Link className="h4 hyperlink-black" to="/careers">Careers</Link>
+                        <a className="h4 hyperlink-black" href="/careers">Careers</a>
                     </div>
                     <div className="footer-large sub-site-container">
-                        <Link className="h4 hyperlink-black" to="/contact-us">Contact <wbr />Us</Link>
+                        <a className="h4 hyperlink-black" href="/contact-us">Contact <wbr />Us</a>
                     </div>
                 </div>
             </div>

@@ -2,13 +2,23 @@
 // GNL General Public License v3
 // Copyright (c) The Next Lap. All rights reserved.
 
-import React, { useEffect } from 'react';
+import * as React from 'react';
+import { useEffect } from 'react';
 import { Header, Footer } from './shared';
 import { appResponsive, useResize } from '../javascripts';
-import { imageDb, contentDb } from '../data';
 import '../stylesheets/enrichment.css';
 
-export const Enrichment = () => {
+interface EnrichmentProps {
+    sectionImg: { [key: string]: any }[];
+    contentDb: { [key: string]: any }[];
+    contactDb: { [key: string]: any }[];
+};
+
+export const Enrichment: React.FC<EnrichmentProps> = ({
+    sectionImg,
+    contentDb,
+    contactDb
+}) => {
     useEffect(() => {
         document.title = 'Enrichment';
     }, []);
@@ -16,7 +26,7 @@ export const Enrichment = () => {
     useResize(appResponsive);
 
     // Get data
-    let set1 = imageDb.filter(e => e['Section'] === 'Other2');
+    let set1 = sectionImg.filter(e => e['Section'] === 'Other2');
     let set2 = contentDb.filter(e => e['Section'] === 'Enrichment1');
     let set3 = contentDb.filter(e => e['Section'] === 'Enrichment2');
 
@@ -24,7 +34,7 @@ export const Enrichment = () => {
         {/* Header */}
         <Header />
         <div className="thumbnail">
-            <img className="thumbnail-img" src={`/images/picture/${set1[0].Image}`} alt={set1[0].ImageCaption} />
+            <img className="thumbnail-img" src={set1[0].URL} alt={set1[0].Caption} />
         </div>
 
         {/* Intro */}
@@ -38,7 +48,7 @@ export const Enrichment = () => {
                     set3.map(entry => {
                         return <li className="flower-frame" key={entry.ID}>
                             <p>{entry.Heading}</p>
-                            <div className="flower-img" style={{ backgroundImage: `url('/images/picture/${entry.Image}')` }}></div>
+                            <div className="flower-img" style={{ backgroundImage: `url('${entry.URL}')` }}></div>
                         </li>
                     })
                 }
@@ -49,11 +59,11 @@ export const Enrichment = () => {
 
         {/* Decors */}
         <div className="decorations">
-            <img src="/images/decor/Circle 1 Yellow.svg" alt='' style={{ position: "absolute", float: "right", right: "1300px", top: "800px", width: "130px", transform: "rotate(4.841deg)" }} />
-            <img src="/images/decor/Dot 1 Blue.svg" alt='' style={{ position: "absolute", float: "right", right: "1260px", top: "1640px", width: "55px" }} />
-            <img src="/images/decor/Dot 2 Red.svg" alt='' style={{ position: "absolute", left: "1320px", top: "640px", width: "55px", transform: "rotate(270deg)" }} />
-            <img src="/images/decor/Circle 2 Blue.svg" alt='' style={{ position: "absolute", left: "1400px", top: "1150px", width: "80px", transform: "rotate(-2.981deg)" }} />
-            <img src="/images/decor/Circle 1 Yellow.svg" alt='' style={{ position: "absolute", left: "1300px", top: "1760px", width: "130px", transform: "rotate(176.852deg)" }} />
+            <img src="images/Circle 1 Yellow.svg" alt='' style={{ position: "absolute", float: "right", right: "1300px", top: "800px", width: "130px", transform: "rotate(4.841deg)" }} />
+            <img src="images/Dot 1 Blue.svg" alt='' style={{ position: "absolute", float: "right", right: "1260px", top: "1640px", width: "55px" }} />
+            <img src="images/Dot 2 Red.svg" alt='' style={{ position: "absolute", left: "1320px", top: "640px", width: "55px", transform: "rotate(270deg)" }} />
+            <img src="images/Circle 2 Blue.svg" alt='' style={{ position: "absolute", left: "1400px", top: "1150px", width: "80px", transform: "rotate(-2.981deg)" }} />
+            <img src="images/Circle 1 Yellow.svg" alt='' style={{ position: "absolute", left: "1300px", top: "1760px", width: "130px", transform: "rotate(176.852deg)" }} />
             <svg xmlns="http://www.w3.org/2000/svg" width="503" height="388" viewBox="0 0 503 388" fill="none" style={{ position: "absolute", top: "1180px", left: "0px" }}>
                 <path d="M-19.0374 384.653C30.1061 260.041 195.011 43.163 500 3.12289" stroke="#EE404A" strokeWidth="6" strokeLinecap="round" strokeDasharray="60 50" />
             </svg>

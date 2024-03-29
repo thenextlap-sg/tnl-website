@@ -1,4 +1,4 @@
-[
+export const sectionDb = [
     {
         "ID": "Other1",
         "Name": "Email Information",

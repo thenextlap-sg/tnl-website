@@ -1,4 +1,4 @@
-[
+export const subjectDb = [
     {
         "SubjectID": 1,
         "Subject": "Mathematics",

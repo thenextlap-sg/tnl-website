@@ -1,128 +1,128 @@
-[
+export const sectionImg = [
     {
         "ID": 1,
         "Section": "Other2",
-        "URL": "Thumbnail.jpg",
+        "URL": "images/Thumbnail.jpg",
         "Caption": "Thumbnail picture of TNL's students on a field trip"
     },
     {
         "ID": 2,
         "Section": "Home3",
-        "URL": "Tuition1.jpeg",
+        "URL": "images/Tuition1.jpeg",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 3,
         "Section": "Home3",
-        "URL": "Tuition2.jpeg",
+        "URL": "images/Tuition2.jpeg",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 4,
         "Section": "Home3",
-        "URL": "Tuition3.jpeg",
+        "URL": "images/Tuition3.jpeg",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 5,
         "Section": "Home3",
-        "URL": "Tuition4.jpeg",
+        "URL": "images/Tuition4.jpeg",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 6,
         "Section": "Home3",
-        "URL": "Tuition5.jpeg",
+        "URL": "images/Tuition5.jpeg",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 7,
         "Section": "Home3",
-        "URL": "Tuition6.jpeg",
+        "URL": "images/Tuition6.jpeg",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 8,
         "Section": "Home3",
-        "URL": "Tuition7.jpeg",
+        "URL": "images/Tuition7.jpeg",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 9,
         "Section": "Home3",
-        "URL": "Tuition8.jpeg",
+        "URL": "images/Tuition8.jpeg",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 10,
         "Section": "Home3",
-        "URL": "Tuition9.jpeg",
+        "URL": "images/Tuition9.jpeg",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 11,
         "Section": "Home3",
-        "URL": "Tuition10.jpeg",
+        "URL": "images/Tuition10.jpeg",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 12,
         "Section": "Home3",
-        "URL": "Tuition11.jpeg",
+        "URL": "images/Tuition11.jpeg",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 13,
         "Section": "Home3",
-        "URL": "Tuition12.jpeg",
+        "URL": "images/Tuition12.jpeg",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 14,
         "Section": "Home3",
-        "URL": "Tuition13.jpeg",
+        "URL": "images/Tuition13.jpeg",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 15,
         "Section": "Home3",
-        "URL": "Tuition14.jpeg",
+        "URL": "images/Tuition14.jpeg",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 16,
         "Section": "Home3",
-        "URL": "Tuition15.jpeg",
+        "URL": "images/Tuition15.jpeg",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 17,
         "Section": "Home3",
-        "URL": "Tuition16.jpeg",
+        "URL": "images/Tuition16.jpeg",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 18,
         "Section": "Home3",
-        "URL": "Tuition17.jpeg",
+        "URL": "images/Tuition17.jpeg",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 19,
         "Section": "Home3",
-        "URL": "Tuition18.jpeg",
+        "URL": "images/Tuition18.jpeg",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 20,
         "Section": "Home3",
-        "URL": "Tuition19.jpeg",
+        "URL": "images/Tuition19.jpeg",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
         "ID": 21,
         "Section": "Home3",
-        "URL": "Tuition20.jpeg",
+        "URL": "images/Tuition20.jpeg",
         "Caption": "Students studying and playing in TNL's student centre"
     },
     {
@@ -248,13 +248,13 @@
     {
         "ID": 48,
         "Section": "Service3",
-        "URL": "Holiday4.jpeg",
+        "URL": "images/Holiday4.jpeg",
         "Caption": "June 2023 Field Trip"
     },
     {
         "ID": 47,
         "Section": "Service3",
-        "URL": "Holiday3.png",
+        "URL": "images/Holiday3.png",
         "Caption": "June 2023 Activity"
     },
     {
@@ -266,7 +266,7 @@
     {
         "ID": 45,
         "Section": "Service3",
-        "URL": "Holiday1.png",
+        "URL": "images/Holiday1.png",
         "Caption": "June 2023 Field Trip"
     },
     {
@@ -278,13 +278,13 @@
     {
         "ID": 43,
         "Section": "Service1",
-        "URL": "Competancies Model.svg",
+        "URL": "images/Competancies Model.svg",
         "Caption": "The Next Lap's Competencies Model"
     },
     {
         "ID": 44,
         "Section": "Service2",
-        "URL": "Timetable.jpeg",
+        "URL": "images/Timetable.jpeg",
         "Caption": "Daily schedule at The Next Lap's student centre"
     }
 ]

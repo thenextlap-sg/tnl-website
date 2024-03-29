@@ -2,12 +2,20 @@
 // GNL General Public License v3
 // Copyright (c) The Next Lap. All rights reserved.
 
-import React, { useEffect, useState } from 'react';
+import * as React from 'react';
+import { useEffect, useState } from 'react';
 import { Header, Footer } from './shared';
-import { imageDb, contentDb } from '../data';
 import '../stylesheets/services.css';
 
-export const Services = () => {
+interface ServicesProps {
+    sectionImg: { [key: string]: any }[];
+    contentDb: { [key: string]: any }[];
+};
+
+export const Services: React.FC<ServicesProps> = ({
+    sectionImg,
+    contentDb
+}) => {
     const [imgIndex, setImgIndex] = useState(0);
 
     useEffect(() => {
@@ -22,14 +30,14 @@ export const Services = () => {
     }
 
     // Get data
-    let set1 = imageDb.filter(e => e['Section'] === 'Other2');
+    let set1 = sectionImg.filter(e => e['Section'] === 'Other2');
     let set2 = contentDb.filter(e => e['ID'] === 19);
-    let set3 = imageDb.filter(e => e['Section'] === 'Service1');
+    let set3 = sectionImg.filter(e => e['Section'] === 'Service1');
     let set4 = contentDb.filter(e => e['ID'] === 20);
     let set5 = contentDb.filter(e => e['ID'] === 21);
-    let set6 = imageDb.filter(e => e['Section'] === 'Service2');
+    let set6 = sectionImg.filter(e => e['Section'] === 'Service2');
     let set7 = contentDb.filter(e => e['ID'] === 22);
-    let set8 = imageDb.filter(e => e['Section'] === 'Service3');
+    let set8 = sectionImg.filter(e => e['Section'] === 'Service3');
     let set9 = contentDb.filter(e => e['ID'] === 23);
     let set10 = contentDb.filter(e => e['ID'] === 24);
     let set11 = contentDb.filter(e => e['Section'] === 'Service5');
@@ -38,7 +46,7 @@ export const Services = () => {
         {/* Header */}
         <Header />
         <div className="thumbnail">
-            <img className="thumbnail-img" src={`/images/picture/${set1[0].Image}`} alt={set1[0].ImageCaption} />
+            <img className="thumbnail-img" src={set1[0].URL} alt={set1[0].Caption} />
         </div>
 
         {/* Intro */}
@@ -48,8 +56,8 @@ export const Services = () => {
                 <span dangerouslySetInnerHTML={{ __html: set2[0].Body }} />
             </p>
             <div id="service-intro-frame">
-                <img id="service-intro-img" src={`/images/picture/${set3[0].Image}`} alt={set3[0].ImageCaption} />
-                <p className="caption" style={{ textAlign: "center" }}>{set3[0].ImageCaption}</p>
+                <img id="service-intro-img" src={set3[0].URL} alt={set3[0].Caption} />
+                <p className="caption" style={{ textAlign: "center" }}>{set3[0].Caption}</p>
             </div>
             <p id="intro-text-2" className="service-intro-text">{set4[0].Body}</p>
         </div>
@@ -62,8 +70,8 @@ export const Services = () => {
                 <span dangerouslySetInnerHTML={{ __html: set5[0].Body }} />
             </p>
             <div id="program-frame">
-                <img id="program-img" src={`/images/picture/${set6[0].Image}`} alt={set6[0].ImageCaption} />
-                <p className="caption" style={{ color: "var(--white)" }}>{set6[0].ImageCaption}</p>
+                <img id="program-img" src={set6[0].URL} alt={set6[0].Caption} />
+                <p className="caption" style={{ color: "var(--white)" }}>{set6[0].Caption}</p>
             </div>
             <p className="program-text">{set7[0].Body}</p>
         </div>
@@ -74,8 +82,8 @@ export const Services = () => {
             {
                 set8.map(entry => {
                     return <li key={entry.ID}>
-                        <p className="holiday-content-title">{entry.ImageCaption}</p>
-                        <p className="holiday-content-img">{`/images/picture/${entry.Image}`}</p>
+                        <p className="holiday-content-title">{entry.Caption}</p>
+                        <p className="holiday-content-img">{entry.URL}</p>
                     </li>
                 })
             }
@@ -90,7 +98,7 @@ export const Services = () => {
                     id="holiday-left" 
                     className="holiday-sub-img"
                     onClick={() => setImgIndex(getPrevImg)}
-                    style={{ backgroundImage: `url('/images/picture/${set8[getPrevImg()].Image}')`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }} />
+                    style={{ backgroundImage: `url('${set8[getPrevImg()].URL}')`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }} />
                 <button 
                     id="holiday-left-button" 
                     className="button holiday-button" 
@@ -101,15 +109,15 @@ export const Services = () => {
                 <div id="holiday-img">
                     <div 
                         id="holiday-center" 
-                        style={{ backgroundImage: `url('/images/picture/${set8[imgIndex].Image}')`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }} />
-                        <p id="holiday-center-text" className="caption">{set8[imgIndex].ImageCaption}</p>
+                        style={{ backgroundImage: `url('${set8[imgIndex].URL}')`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }} />
+                        <p id="holiday-center-text" className="caption">{set8[imgIndex].Caption}</p>
                 </div>
 
                 <div 
                     id="holiday-right" 
                     className="holiday-sub-img"
                     onClick={() => setImgIndex(getNextImg)}
-                    style={{ backgroundImage: `url('/images/picture/${set8[getNextImg()].Image}')`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }} />
+                    style={{ backgroundImage: `url('${set8[getNextImg()].URL}')`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }} />
                 <button 
                     id="holiday-right-button" 
                     className="button holiday-button" 
@@ -133,7 +141,7 @@ export const Services = () => {
                             return <li 
                                 key={entry.ID}
                                 className="activity-img" 
-                                style={{ backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.50) 100%), url('/images/picture/${entry.Image}')` }}>
+                                style={{ backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.50) 100%), url('${entry.URL}')` }}>
                                     <p className="h3" style={{ margin: "0px", color: "var(--white)", textTransform: "uppercase" }}>{entry.Heading}</p>
                                     <p className="h4" style={{ color: "var(--white)" }}>{entry.Body}</p>    
                             </li>
@@ -146,17 +154,17 @@ export const Services = () => {
         {/* Decors */}
         <div className="decorations">
             {/* Left */}
-            <img src="/images/decor/Pencil Blue.svg" alt='' style={{ position: "absolute", float: "right", right: "1300px", top: "900px", width: "90px", transform: "rotate(5.126deg)" }} />
-            <img src="/images/decor/Ghim Red.svg" alt='' style={{ position: "absolute", float: "right", right: "1320px", top: "1750px", width: "70px", transform: "rotate(-34.302deg)" }} />
-            <img src="/images/decor/Dot 1 White.svg" alt='' style={{ position: "absolute", float: "right", right: "1300px", top: "2250px", width: "50px" }} />
-            <img src="/images/decor/Chem White.svg" alt='' style={{ position: "absolute", float: "right", right: "1250px", top: "3250px", width: "90px", transform: "rotate(-30deg)" }} />
+            <img src="images/Pencil Blue.svg" alt='' style={{ position: "absolute", float: "right", right: "1300px", top: "900px", width: "90px", transform: "rotate(5.126deg)" }} />
+            <img src="images/Ghim Red.svg" alt='' style={{ position: "absolute", float: "right", right: "1320px", top: "1750px", width: "70px", transform: "rotate(-34.302deg)" }} />
+            <img src="images/Dot 1 White.svg" alt='' style={{ position: "absolute", float: "right", right: "1300px", top: "2250px", width: "50px" }} />
+            <img src="images/Chem White.svg" alt='' style={{ position: "absolute", float: "right", right: "1250px", top: "3250px", width: "90px", transform: "rotate(-30deg)" }} />
 
             {/* Right */}
-            <img src="/images/decor/Chem Blue.svg" alt='' style={{ position: "absolute", left: "1300px", top: "600px", width: "100px", transform: "rotate(-40.411deg)" }} />
-            <img src="/images/decor/Ruler Red.svg" alt='' style={{ position: "absolute", left: "1200px", top: "1220px", width: "100px", transform: "rotate(41.254deg)" }} />
-            <img src="/images/decor/Tag Yellow.svg" alt='' style={{ position: "absolute", left: "1340px", top: "1850px", width: "100px", transform: "rotate(-21.206deg)" }} />
-            <img src="/images/decor/Ruler White.svg" alt='' style={{ position: "absolute", left: "1300px", top: "2350px", width: "90px", transform: "rotate(15.058deg)" }} />
-            <img src="/images/decor/Dot 2 White.svg" alt='' style={{ position: "absolute", left: "1380px", top: "2900px", width: "50px" }} />
+            <img src="images/Chem Blue.svg" alt='' style={{ position: "absolute", left: "1300px", top: "600px", width: "100px", transform: "rotate(-40.411deg)" }} />
+            <img src="images/Ruler Red.svg" alt='' style={{ position: "absolute", left: "1200px", top: "1220px", width: "100px", transform: "rotate(41.254deg)" }} />
+            <img src="images/Tag Yellow.svg" alt='' style={{ position: "absolute", left: "1340px", top: "1850px", width: "100px", transform: "rotate(-21.206deg)" }} />
+            <img src="images/Ruler White.svg" alt='' style={{ position: "absolute", left: "1300px", top: "2350px", width: "90px", transform: "rotate(15.058deg)" }} />
+            <img src="images/Dot 2 White.svg" alt='' style={{ position: "absolute", left: "1380px", top: "2900px", width: "50px" }} />
         </div>
 
         {/* Footer */}

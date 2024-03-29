@@ -1,4 +1,4 @@
-[
+export const contentDb = [
     {
         "ID": 2,
         "Section": "Home1",
@@ -45,43 +45,57 @@
         "ID": 9,
         "Section": "About4",
         "Heading": "Adaptability",
-        "Body": ""
+        "Body": "",
+        "URL": "Value1.png",
+        "Caption": "An outlined graphic of conversion"
     },
     {
         "ID": 10,
         "Section": "About4",
         "Heading": "Confidence",
-        "Body": ""
+        "Body": "",
+        "URL": "Value2.png",
+        "Caption": "An outlined graphic of a confident person"
     },
     {
         "ID": 11,
         "Section": "About4",
         "Heading": "Innovative",
-        "Body": ""
+        "Body": "",
+        "URL": "Value3.png",
+        "Caption": "An outlined graphic of a smart tool"
     },
     {
         "ID": 12,
         "Section": "About4",
         "Heading": "Perseverance",
-        "Body": ""
+        "Body": "",
+        "URL": "Value4.png",
+        "Caption": "An outline graphic of a person climb a mountain"
     },
     {
         "ID": 13,
         "Section": "About4",
         "Heading": "Resilience",
-        "Body": ""
+        "Body": "",
+        "URL": "Value5.png",
+        "Caption": "An outline graphic of an elastic wall"
     },
     {
         "ID": 14,
         "Section": "About4",
         "Heading": "Respect",
-        "Body": ""
+        "Body": "",
+        "URL": "Value6.png",
+        "Caption": "An outline graphic of a child greeting the elderly"
     },
     {
         "ID": 15,
         "Section": "About4",
         "Heading": "Self-Discipline",
-        "Body": ""
+        "Body": "",
+        "URL": "Value7.png",
+        "Caption": "An outline graphic of a moon"
     },
     {
         "ID": 16,
@@ -141,49 +155,65 @@
         "ID": 25,
         "Section": "Service5",
         "Heading": "Nature Playgarden",
-        "Body": "June 2023"
+        "Body": "June 2023",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczPenn8heeAcVdhbE6szG8sTyOP37MAjyx3GI7l76aSeofBUZHI3ZLupdvIQ63Gq27PIMoR3SL8BNRsdKzGNL8OFNLdkwx4nybq3Ex5pIpM88cMdNnI=w1200",
+        "Caption": "A poster about the garden activity"
     },
     {
         "ID": 26,
         "Section": "Service5",
         "Heading": "Science Experiments",
-        "Body": "June 2023"
+        "Body": "June 2023",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczMjI4UwX9r3fFmvOIX65iwRdC5a1nHNnC7iXcIddkkuOABYQy_5MMl2Ujgch7qL_Pnkx0c9L1l9AFpELFiT-36DAFclzsqesITTjeUnxh7fkBZPgaU=w1200",
+        "Caption": "A poster about the little chemistry activity"
     },
     {
         "ID": 27,
         "Section": "Service5",
         "Heading": "Little Chefs",
-        "Body": "June 2023"
+        "Body": "June 2023",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczNTICc5M8ZXMio9rOeVci81RjdQOnaC_zQw99n0kzZuICBDUcf1Um3W_G8IkEYCnGX40ysebNr6e2zBPsPHT-4okacQKY8rjNfapfeT_R-T41rmm4c=w1200",
+        "Caption": "A poster about the little chefs activity"
     },
     {
         "ID": 28,
         "Section": "Service5",
         "Heading": "Crafts",
-        "Body": "June 2023"
+        "Body": "June 2023",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczOm7N8hJAjLb_9qMGvi8SVWAMCm1B9OhvHHtxFMl_crm6TGFOZd1k0-AZwvYpMd3vAkkhJlRy6Uh0N2CJUTlPj8WUxUxH5B26TKsqqiFaIeGVN76TU=w1200",
+        "Caption": "A poster about the crafting activity"
     },
     {
         "ID": 29,
         "Section": "Tuition1",
         "Heading": "Classrooms",
-        "Body": "We have a small group size per class to ensure that students get ample space and receive ample attention"
+        "Body": "We have a small group size per class to ensure that students get ample space and receive ample attention",
+        "URL": "Facility1.jpeg",
+        "Caption": "A room with full of student table and chairs"
     },
     {
         "ID": 30,
         "Section": "Tuition1",
         "Heading": "Recreations Room",
-        "Body": "This is where children learn beyond their school curriculum, learning arts & craft, music etc. and play with their peers"
+        "Body": "This is where children learn beyond their school curriculum, learning arts & craft, music etc. and play with their peers",
+        "URL": "Facility2.jpeg",
+        "Caption": "A picture of student playing the the room"
     },
     {
         "ID": 31,
         "Section": "Tuition1",
         "Heading": "Living Area",
-        "Body": "Like their own home, this where students conduct their self-directed studying, do assignments and even learn how to cook!"
+        "Body": "Like their own home, this where students conduct their self-directed studying, do assignments and even learn how to cook!",
+        "URL": "Facility3.jpeg",
+        "Caption": "A picture of the kitchen"
     },
     {
         "ID": 32,
         "Section": "Tuition1",
         "Heading": "Admin/E-Learning Area",
-        "Body": "This is where the kids do their E-Learning and where all administrative matters are done. You can find out more about our centre's curriculum and schedule here!"
+        "Body": "This is where the kids do their E-Learning and where all administrative matters are done. You can find out more about our centre's curriculum and schedule here!",
+        "URL": "Facility4.jpeg",
+        "Caption": "A picture of a student with a computer"
     },
     {
         "ID": 33,
@@ -195,25 +225,33 @@
         "ID": 34,
         "Section": "Enrichment2",
         "Heading": "Programming certificates",
-        "Body": ""
+        "Body": "",
+        "URL": "Skill1.png",
+        "Caption": "A picture of the code for a program"
     },
     {
         "ID": 35,
         "Section": "Enrichment2",
         "Heading": "Martial arts",
-        "Body": ""
+        "Body": "",
+        "URL": "Skill2.png",
+        "Caption": "A picture of a girl doing some moves"
     },
     {
         "ID": 36,
         "Section": "Enrichment2",
         "Heading": "Public speaking",
-        "Body": ""
+        "Body": "",
+        "URL": "Skill3.jpg",
+        "Caption": "A picture of a person talking in front of many people"
     },
     {
         "ID": 37,
         "Section": "Enrichment2",
         "Heading": "Debating",
-        "Body": ""
+        "Body": "",
+        "URL": "Skill4.jpg",
+        "Caption": "A picture of a Model United Nation (MUN) conference"
     },
     {
         "ID": 38,
@@ -225,19 +263,25 @@
         "ID": 39,
         "Section": "Franchise2",
         "Heading": "",
-        "Body": "A proven business model that generates high returns on investment"
+        "Body": "A proven business model that generates high returns on investment",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczNKKLGp3AHSFTr0QWhhnLCSqxqrj_Yh1TpNMgfEkZv9DbbEx071lGD-M9OCqtQZqNx54-CxxVrikddwuhYZSrMbQYklPz5F6X4Oc2lib2dRGeUKzA=w400",
+        "Caption": "An outlined graphic of money"
     },
     {
         "ID": 40,
         "Section": "Franchise2",
         "Heading": "",
-        "Body": "A comprehensive franchise support system"
+        "Body": "A comprehensive franchise support system",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczMuG-yAul6949YbsyMGO1E4z6u7U3pKfZz3w4jL9my79rTgW3x4Mc-Aq-TScEijIhwh0siPQoGyXFPtKi3qSKu6uleKoaSiERCgn0Raw7Q70wd99XA=w400",
+        "Caption": "An outlined graphic of a contact center"
     },
     {
         "ID": 41,
         "Section": "Franchise2",
         "Heading": "",
-        "Body": "A network of fellow franchise partners who can share best practices and resources"
+        "Body": "A network of fellow franchise partners who can share best practices and resources",
+        "URL": "https://lh3.googleusercontent.com/pw/AP1GczNI-dLOmEibtXlP9M-WtOxjFlbQO7ULovK6Dkyo9JqpkoMQDYjV78UgVbLRRHCQzAyinRf49GrchbzqMu8J2-ttLAQ7esjCG5fR7aJGqj-yE-V63Q=w400",
+        "Caption": "An outlined graphic of a human network"
     },
     {
         "ID": 48,

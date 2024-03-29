@@ -1,4 +1,4 @@
-[
+export const contactDb = [
     {
         "Contact": "Vann",
         "Information": "+6587337199"

@@ -2,13 +2,21 @@
 // GNL General Public License v3
 // Copyright (c) The Next Lap. All rights reserved.
 
-import React, { useEffect } from 'react';
+import * as React from 'react';
+import { useEffect } from 'react';
 import { Header, Footer } from './shared';
 import { appResponsive, useResize } from '../javascripts';
-import { imageDb, contentDb } from '../data';
 import '../stylesheets/about.css';
 
-export const About = () => {
+interface AboutProps {
+    sectionImg: { [key: string]: any }[];
+    contentDb: { [key: string]: any }[];
+};
+
+export const About: React.FC<AboutProps> = ({
+    sectionImg,
+    contentDb
+}) => {
     useEffect(() => {
         document.title = 'About Us';
     }, []);
@@ -16,19 +24,19 @@ export const About = () => {
     useResize(appResponsive);
 
     // Get data
-    let set1 = imageDb.filter(e => e['Section'] === 'Other2');
-    let set2 = contentDb.filter(e => e['Section'] === 'About1');
-    let set3 = contentDb.filter(e => e['Section'] === 'About2');
-    let set4 = contentDb.filter(e => e['Section'] === 'About3');
-    let set5 = contentDb.filter(e => e['Section'] === 'About4');
-    let set6 = imageDb.filter(e => e['Section'] === 'About5');
-    let set7 = contentDb.filter(e => e['Section'] === 'About5');
+    let set1 = sectionImg.filter((e: {[id: string]: string}) => e['Section'] === 'Other2');
+    let set2 = contentDb.filter((e: {[id: string]: string}) => e['Section'] === 'About1');
+    let set3 = contentDb.filter((e: {[id: string]: string}) => e['Section'] === 'About2');
+    let set4 = contentDb.filter((e: {[id: string]: string}) => e['Section'] === 'About3');
+    let set5 = contentDb.filter((e: {[id: string]: string}) => e['Section'] === 'About4');
+    let set6 = sectionImg.filter((e: {[id: string]: string}) => e['Section'] === 'About5');
+    let set7 = contentDb.filter((e: {[id: string]: string}) => e['Section'] === 'About5');
 
     return <>
         {/* Header */}
         <Header />
         <div className="thumbnail">
-            <img className="thumbnail-img" src={`/images/picture/${set1[0].Image}`} alt={set1[0].ImageCaption} />
+            <img className="thumbnail-img" src={set1[0].URL} alt={set1[0].Caption} />
         </div>
 
         {/* Intro */}
@@ -53,17 +61,17 @@ export const About = () => {
 
         {/* Values */}
         <div style={{ padding: "6.25rem 0rem 0rem" }}>
-            <img src="/images/decor/Triangle Red.svg" alt='Graphic' style={{ position: "relative", left: "0px", width: "40vw" }} />
+            <img src="images/Triangle Red.svg" alt='Graphic' style={{ position: "relative", left: "0px", width: "40vw" }} />
             <span />
-            <img src="/images/decor/Triangle Blue.svg" alt='Graphic' style={{ position: "relative", float: "right", right: "0px", width: "40vw" }} />
+            <img src="images/Triangle Blue.svg" alt='Graphic' style={{ position: "relative", float: "right", right: "0px", width: "40vw" }} />
         </div>
         <h1 id="values-section">Values</h1>
         <div id="value-container" className="main-container">
             {
-                set5.map(entry => {
+                set5.map((entry: {[id: string]: string}) => {
                     return <div className="value-frame" key={entry.ID}>
                         <p className="h3">{entry.Heading}</p>
-                        <img className="value-img" src={`/images/picture/${entry.Image}`} alt={entry.ImageCaption} />
+                        <img className="value-img" src={entry.URL} alt={entry.Caption} />
                     </div>
                 })
             }
@@ -71,12 +79,12 @@ export const About = () => {
 
         {/* Testinomials */}
         <div style={{ height: "12.5rem" }} />
-        <div id="test-container" className="main-container" style={{ backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.50) 100%), url('/images/picture/${set6[0].Image}')` }}>
+        <div id="test-container" className="main-container" style={{ backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.50) 100%), url('${set6[0].URL}')` }}>
             <div style={{ padding: "3.75rem 0px 6.25rem" }}>
                 <h1 id="test-section">Testimonials</h1>
                 <ul className="test-frame">
                     {
-                        set7.map(entry => {
+                        set7.map((entry: {[id: string]: string}) => {
                             return <li className="test-quote" key={entry.ID}>
                                 <p className="h3">{entry.Heading}</p>
                                 <p className="caption">
@@ -91,9 +99,9 @@ export const About = () => {
 
         {/* Decors */}
         <div className="decoration">
-            <img src="/images/decor/Dot 1 Red.svg" alt='' style={{ position: "absolute", float: "right", right: "1320px", top: "1150px", width: "55px" }} />
-            <img src="/images/decor/Dot 2 Blue.svg" alt='' style={{ position: "absolute", left: "1310px", top: "600px", width: "55px" }} />
-            <img src="/images/decor/Circle 1 Red.svg" alt='' style={{ position: "absolute", left: "1370px", top: "920px", width: "130px", transform: "rotate(184.841deg)" }} />
+            <img src="images/Dot 1 Red.svg" alt='' style={{ position: "absolute", float: "right", right: "1320px", top: "1150px", width: "55px" }} />
+            <img src="images/Dot 2 Blue.svg" alt='' style={{ position: "absolute", left: "1310px", top: "600px", width: "55px" }} />
+            <img src="images/Circle 1 Red.svg" alt='' style={{ position: "absolute", left: "1370px", top: "920px", width: "130px", transform: "rotate(184.841deg)" }} />
         </div>
 
         {/* Footer */}

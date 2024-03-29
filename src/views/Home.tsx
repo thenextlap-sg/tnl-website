@@ -2,14 +2,22 @@
 // GNL General Public License v3
 // Copyright (c) The Next Lap. All rights reserved.
 
-import React, { useEffect } from 'react';
+import * as React from 'react';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Header, Footer } from './shared';
 import { appResponsive, homeResizeImgs, homeOnScroll, useResize, useScroll } from '../javascripts';
-import { imageDb, contentDb } from '../data';
 import '../stylesheets/home.css';
 
-export const Home = () => {
+interface HomeProps {
+    sectionImg: { [key: string]: any }[];
+    contentDb: { [key: string]: any }[];
+};
+
+export const Home: React.FC<HomeProps> = ({
+    sectionImg,
+    contentDb
+}) => {
     useEffect(() => {
         document.title = 'The Next Lap';
     }, []);
@@ -19,14 +27,14 @@ export const Home = () => {
     useScroll(homeOnScroll);
 
     // Get data
-    let set1 = imageDb.filter(e => e['Section'] === 'Other2');
-    let set2 = contentDb.filter(e => e['Section'] === 'Home1');
-    let set3 = imageDb.filter(e => e['Section'] === 'Service1');
-    let set4 = contentDb.filter(e => e['Section'] === 'Home2');
-    let set5 = contentDb.filter(e => e['Section'] === 'Home3');
-    let set6 = imageDb.filter(e => e['Section'] === 'Home3');
-    let set7 = contentDb.filter(e => e['Section'] === 'Home4');
-    let set8 = imageDb.filter(e => e['Section'] === 'Home4');
+    let set1 = sectionImg.filter((e: { [key: string]: any }) => e['Section'] === 'Other2');
+    let set2 = contentDb.filter((e: { [key: string]: any }) => e['Section'] === 'Home1');
+    let set3 = sectionImg.filter((e: { [key: string]: any }) => e['Section'] === 'Service1');
+    let set4 = contentDb.filter((e: { [key: string]: any }) => e['Section'] === 'Home2');
+    let set5 = contentDb.filter((e: { [key: string]: any }) => e['Section'] === 'Home3');
+    let set6 = sectionImg.filter((e: { [key: string]: any }) => e['Section'] === 'Home3');
+    let set7 = contentDb.filter((e: { [key: string]: any }) => e['Section'] === 'Home4');
+    let set8 = sectionImg.filter((e: { [key: string]: any }) => e['Section'] === 'Home4');
 
     return <>
         {/* Header */}
@@ -34,7 +42,7 @@ export const Home = () => {
 
         {/* Thumbnail */}
         <div id="homepage-thumbnail">
-            <img id="thumbnail-video" src={`/images/picture/${set1[0].Image}`} alt={set1[0].ImageCaption} />
+            <img id="thumbnail-video" src={set1[0].URL} alt={set1[0].Caption} />
         </div>
 
         {/* Introduction Section */}
@@ -43,7 +51,7 @@ export const Home = () => {
             <div id="intro-frame" className="intro-service-frame">
                 <p className="title">{set2[0].Heading}</p>
                 <p>{set2[0].Body}</p>
-                <Link className="button button-red" to="/about">More About Us</Link>
+                <a className="button button-red" href="/about">More About Us</a>
             </div>
             <div id="intro-graphic" />
         </div>
@@ -52,13 +60,13 @@ export const Home = () => {
         <div style={{ height: "3.125rem", background: "var(--blue)" }} />
         <div id='section-2' className='main-container'>
             <div id="service-rec-container">
-                <div id="service-rec" style={{ backgroundImage: `url("/images/picture/${set3[0].Image}")` }} />
-                <p className="caption">{set3[0].ImageCaption}</p>
+                <div id="service-rec" style={{ backgroundImage: `url("${set3[0].URL}")` }} />
+                <p className="caption">{set3[0].Caption}</p>
             </div>
             <div id="service-frame" className="intro-service-frame">
                 <h1>{set4[0].Heading}</h1>
                 <p>{set4[0].Body}</p>
-                <Link className="button button-blue" to="/student-care-services">View Student Care Services</Link>
+                <a className="button button-blue" href="/student-care-services">View Student Care Services</a>
             </div>
         </div>
         <div style={{ height: "3.125rem", background: "var(--blue)" }} />
@@ -68,8 +76,8 @@ export const Home = () => {
         <div id="section-3" className='home main-container'>
             <div className="background-container">
                 {
-                    set6.map(entry => {
-                        return <div className="background-imgs" style={{ backgroundImage: `url("/images/picture/${entry.Image}")`, backgroundSize: 'cover' }} key={entry.ID} />
+                    set6.map((entry: { [key: string]: any }) => {
+                        return <div className="background-imgs" style={{ backgroundImage: `url("${entry.URL}")`, backgroundSize: 'cover' }} key={entry.ID} />
                     })
                 }
             </div>
@@ -79,17 +87,17 @@ export const Home = () => {
                     <h1>{set5[0].Heading}</h1>
                     <p>{set5[0].Body}</p>
                 </div>
-                <Link className="button button-red" to="/tuition-centre">View Tuition Centre</Link>
+                <a className="button button-red" href="/tuition-centre">View Tuition Centre</a>
             </div>
         </div>
 
         {/* Enrichment Section */}
         <div id="section-4" className='home main-container'>
             <div className="background-container">
-            <div className="background-imgs" style={{ backgroundImage: `url("/images/picture/${set8[0].Image}")`, backgroundSize: 'cover' }} />
+            <div className="background-imgs" style={{ backgroundImage: `url("${set8[0].URL}")`, backgroundSize: 'cover' }} />
                 {
-                    set8.map(entry => {
-                        return <div className="background-imgs" style={{ backgroundImage: `url("/images/picture/${entry.Image}")`, backgroundSize: 'cover' }} key={entry.ID}/>
+                    set8.map((entry: { [key: string]: any }) => {
+                        return <div className="background-imgs" style={{ backgroundImage: `url("${entry.URL}")`, backgroundSize: 'cover' }} key={entry.ID}/>
                     })
                 }
             </div>
@@ -99,7 +107,7 @@ export const Home = () => {
                     <h1>{set7[0].Heading}</h1>
                     <p>{set7[0].Body}</p>
                 </div>
-                <Link className="button button-red" to="/enrichment">View Enrichment</Link>
+                <a className="button button-red" href="/enrichment">View Enrichment</a>
             </div>
         </div>
 

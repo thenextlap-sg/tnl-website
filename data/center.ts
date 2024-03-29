@@ -1,4 +1,4 @@
-[
+export const centerDb =  [
     {
         "ID": "A",
         "Name": "Ang Mo Kio",
