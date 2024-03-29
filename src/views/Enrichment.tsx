@@ -59,11 +59,11 @@ export const Enrichment: React.FC<EnrichmentProps> = ({
 
         {/* Decors */}
         <div className="decorations">
-            <img src="images/Circle 1 Yellow.svg" alt='' style={{ position: "absolute", float: "right", right: "1300px", top: "800px", width: "130px", transform: "rotate(4.841deg)" }} />
-            <img src="images/Dot 1 Blue.svg" alt='' style={{ position: "absolute", float: "right", right: "1260px", top: "1640px", width: "55px" }} />
-            <img src="images/Dot 2 Red.svg" alt='' style={{ position: "absolute", left: "1320px", top: "640px", width: "55px", transform: "rotate(270deg)" }} />
-            <img src="images/Circle 2 Blue.svg" alt='' style={{ position: "absolute", left: "1400px", top: "1150px", width: "80px", transform: "rotate(-2.981deg)" }} />
-            <img src="images/Circle 1 Yellow.svg" alt='' style={{ position: "absolute", left: "1300px", top: "1760px", width: "130px", transform: "rotate(176.852deg)" }} />
+            <img src="public/images/Circle 1 Yellow.svg" alt='' style={{ position: "absolute", float: "right", right: "1300px", top: "800px", width: "130px", transform: "rotate(4.841deg)" }} />
+            <img src="public/images/Dot 1 Blue.svg" alt='' style={{ position: "absolute", float: "right", right: "1260px", top: "1640px", width: "55px" }} />
+            <img src="public/images/Dot 2 Red.svg" alt='' style={{ position: "absolute", left: "1320px", top: "640px", width: "55px", transform: "rotate(270deg)" }} />
+            <img src="public/images/Circle 2 Blue.svg" alt='' style={{ position: "absolute", left: "1400px", top: "1150px", width: "80px", transform: "rotate(-2.981deg)" }} />
+            <img src="public/images/Circle 1 Yellow.svg" alt='' style={{ position: "absolute", left: "1300px", top: "1760px", width: "130px", transform: "rotate(176.852deg)" }} />
             <svg xmlns="http://www.w3.org/2000/svg" width="503" height="388" viewBox="0 0 503 388" fill="none" style={{ position: "absolute", top: "1180px", left: "0px" }}>
                 <path d="M-19.0374 384.653C30.1061 260.041 195.011 43.163 500 3.12289" stroke="#EE404A" strokeWidth="6" strokeLinecap="round" strokeDasharray="60 50" />
             </svg>

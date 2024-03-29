@@ -124,8 +124,8 @@ export const Contact: React.FC<ContactProps> = ({
 
         {/* Decors */}
         <div className="decorations">
-            <img src="images/Dot 1 Blue.svg" alt='' style={{ position: "absolute", float: "right", right: "1400px", top: "620px", width: "55px" }} />
-            <img src="images/Circle 2 Red.svg" alt='' style={{ position: "absolute", left: "1380px", top: "560px", width: "80px", transform: "rotate(-2.981deg)" }} />
+            <img src="public/images/Dot 1 Blue.svg" alt='' style={{ position: "absolute", float: "right", right: "1400px", top: "620px", width: "55px" }} />
+            <img src="public/images/Circle 2 Red.svg" alt='' style={{ position: "absolute", left: "1380px", top: "560px", width: "80px", transform: "rotate(-2.981deg)" }} />
             <svg xmlns="http://www.w3.org/2000/svg" width="990" height="305" viewBox="0 0 990 305" fill="none" style={{ position: "absolute", top: "1050px", left: "0px" }}>
                 <path d="M0 3C0.666667 53.5 39 157.2 187 168C372 181.5 462 388.5 678 258.5C802.57 183.527 898.537 142.313 987 125.075" stroke="#FCB813" strokeWidth="6" strokeLinecap="round" strokeDasharray="60 40" />
             </svg>

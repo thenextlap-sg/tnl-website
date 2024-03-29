@@ -1,5 +1,9 @@
-# dependencies
-/node_modules
+# Packages
+node_modules
 
-# production
-/build
+# Output files
+build
+package-lock.json
+
+# IDEs and editors
+.github

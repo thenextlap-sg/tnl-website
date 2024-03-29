@@ -46,7 +46,7 @@ export const contentDb = [
         "Section": "About4",
         "Heading": "Adaptability",
         "Body": "",
-        "URL": "images/Value1.png",
+        "URL": "public/images/Value1.png",
         "Caption": "An outlined graphic of conversion"
     },
     {
@@ -54,7 +54,7 @@ export const contentDb = [
         "Section": "About4",
         "Heading": "Confidence",
         "Body": "",
-        "URL": "images/Value2.png",
+        "URL": "public/images/Value2.png",
         "Caption": "An outlined graphic of a confident person"
     },
     {
@@ -62,7 +62,7 @@ export const contentDb = [
         "Section": "About4",
         "Heading": "Innovative",
         "Body": "",
-        "URL": "images/Value3.png",
+        "URL": "public/images/Value3.png",
         "Caption": "An outlined graphic of a smart tool"
     },
     {
@@ -70,7 +70,7 @@ export const contentDb = [
         "Section": "About4",
         "Heading": "Perseverance",
         "Body": "",
-        "URL": "images/Value4.png",
+        "URL": "public/images/Value4.png",
         "Caption": "An outline graphic of a person climb a mountain"
     },
     {
@@ -78,7 +78,7 @@ export const contentDb = [
         "Section": "About4",
         "Heading": "Resilience",
         "Body": "",
-        "URL": "images/Value5.png",
+        "URL": "public/images/Value5.png",
         "Caption": "An outline graphic of an elastic wall"
     },
     {
@@ -86,7 +86,7 @@ export const contentDb = [
         "Section": "About4",
         "Heading": "Respect",
         "Body": "",
-        "URL": "images/Value6.png",
+        "URL": "public/images/Value6.png",
         "Caption": "An outline graphic of a child greeting the elderly"
     },
     {
@@ -94,7 +94,7 @@ export const contentDb = [
         "Section": "About4",
         "Heading": "Self-Discipline",
         "Body": "",
-        "URL": "images/Value7.png",
+        "URL": "public/images/Value7.png",
         "Caption": "An outline graphic of a moon"
     },
     {

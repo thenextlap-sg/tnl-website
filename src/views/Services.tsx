@@ -154,17 +154,17 @@ export const Services: React.FC<ServicesProps> = ({
         {/* Decors */}
         <div className="decorations">
             {/* Left */}
-            <img src="images/Pencil Blue.svg" alt='' style={{ position: "absolute", float: "right", right: "1300px", top: "900px", width: "90px", transform: "rotate(5.126deg)" }} />
-            <img src="images/Ghim Red.svg" alt='' style={{ position: "absolute", float: "right", right: "1320px", top: "1750px", width: "70px", transform: "rotate(-34.302deg)" }} />
-            <img src="images/Dot 1 White.svg" alt='' style={{ position: "absolute", float: "right", right: "1300px", top: "2250px", width: "50px" }} />
-            <img src="images/Chem White.svg" alt='' style={{ position: "absolute", float: "right", right: "1250px", top: "3250px", width: "90px", transform: "rotate(-30deg)" }} />
+            <img src="public/images/Pencil Blue.svg" alt='' style={{ position: "absolute", float: "right", right: "1300px", top: "900px", width: "90px", transform: "rotate(5.126deg)" }} />
+            <img src="public/images/Ghim Red.svg" alt='' style={{ position: "absolute", float: "right", right: "1320px", top: "1750px", width: "70px", transform: "rotate(-34.302deg)" }} />
+            <img src="public/images/Dot 1 White.svg" alt='' style={{ position: "absolute", float: "right", right: "1300px", top: "2250px", width: "50px" }} />
+            <img src="public/images/Chem White.svg" alt='' style={{ position: "absolute", float: "right", right: "1250px", top: "3250px", width: "90px", transform: "rotate(-30deg)" }} />
 
             {/* Right */}
-            <img src="images/Chem Blue.svg" alt='' style={{ position: "absolute", left: "1300px", top: "600px", width: "100px", transform: "rotate(-40.411deg)" }} />
-            <img src="images/Ruler Red.svg" alt='' style={{ position: "absolute", left: "1200px", top: "1220px", width: "100px", transform: "rotate(41.254deg)" }} />
-            <img src="images/Tag Yellow.svg" alt='' style={{ position: "absolute", left: "1340px", top: "1850px", width: "100px", transform: "rotate(-21.206deg)" }} />
-            <img src="images/Ruler White.svg" alt='' style={{ position: "absolute", left: "1300px", top: "2350px", width: "90px", transform: "rotate(15.058deg)" }} />
-            <img src="images/Dot 2 White.svg" alt='' style={{ position: "absolute", left: "1380px", top: "2900px", width: "50px" }} />
+            <img src="public/images/Chem Blue.svg" alt='' style={{ position: "absolute", left: "1300px", top: "600px", width: "100px", transform: "rotate(-40.411deg)" }} />
+            <img src="public/images/Ruler Red.svg" alt='' style={{ position: "absolute", left: "1200px", top: "1220px", width: "100px", transform: "rotate(41.254deg)" }} />
+            <img src="public/images/Tag Yellow.svg" alt='' style={{ position: "absolute", left: "1340px", top: "1850px", width: "100px", transform: "rotate(-21.206deg)" }} />
+            <img src="public/images/Ruler White.svg" alt='' style={{ position: "absolute", left: "1300px", top: "2350px", width: "90px", transform: "rotate(15.058deg)" }} />
+            <img src="public/images/Dot 2 White.svg" alt='' style={{ position: "absolute", left: "1380px", top: "2900px", width: "50px" }} />
         </div>
 
         {/* Footer */}

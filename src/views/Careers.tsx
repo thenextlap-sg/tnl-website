@@ -71,10 +71,10 @@ export const Careers: React.FC<CareersProps> = ({
 
         {/* Decors */}
         <div className="decorations">
-            <img src="images/Chem Blue.svg" alt='' style={{ position: "absolute", float: "right", right: "1300px", top: "1050px", width: "102.567px", transform: "rotate(20.282deg)" }} />
-            <img src="images/Tag Yellow.svg" alt='' style={{ position: "absolute", left: "1218px", top: "600px", width: "55.724px", transform: "rotate(24.148deg)" }} />
-            <img src="images/Ghim Red.svg" alt='' style={{ position: "absolute", left: "1400px", top: "750px", width: "47.031px", transform: "rotate(28.359deg)" }} />
-            <img src="images/Ghim Red.svg" alt='' style={{ position: "absolute", left: "1054px", top: "1250px", width: "61.798px", transform: "rotate(-54.458deg)" }} />
+            <img src="public/images/Chem Blue.svg" alt='' style={{ position: "absolute", float: "right", right: "1300px", top: "1050px", width: "102.567px", transform: "rotate(20.282deg)" }} />
+            <img src="public/images/Tag Yellow.svg" alt='' style={{ position: "absolute", left: "1218px", top: "600px", width: "55.724px", transform: "rotate(24.148deg)" }} />
+            <img src="public/images/Ghim Red.svg" alt='' style={{ position: "absolute", left: "1400px", top: "750px", width: "47.031px", transform: "rotate(28.359deg)" }} />
+            <img src="public/images/Ghim Red.svg" alt='' style={{ position: "absolute", left: "1054px", top: "1250px", width: "61.798px", transform: "rotate(-54.458deg)" }} />
         </div>
 
         {/* Footer */}

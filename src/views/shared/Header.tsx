@@ -14,7 +14,7 @@ export const Header = () => {
         <nav>
             <div id="nav-container">
                 <a href="/">
-                    <img id="tnl-logo" src="/images/TNL logo_RGB.png" alt="'The Next Lap Logo" />
+                    <img id="tnl-logo" src="/public/images/TNL logo_RGB.png" alt="'The Next Lap Logo" />
                 </a>
 
                 <div id="nav-menu" onClick={headerOnclick}></div>

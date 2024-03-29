@@ -14,7 +14,7 @@ export const Footer = () => {
             <div id="info-container">
                 <div id="site-logo">
                     <a href="/">
-                        <img id="site-tnl-logo" src="/images/TNL logo_RGB.png" alt="The Next Lap Logo" />
+                        <img id="site-tnl-logo" src="/public/images/TNL logo_RGB.png" alt="The Next Lap Logo" />
                     </a>
                 </div>
                 <div className="info">

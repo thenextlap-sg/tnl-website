@@ -278,7 +278,7 @@ export const sectionImg = [
     {
         "ID": 43,
         "Section": "Service1",
-        "URL": "images/Competancies Model.svg",
+        "URL": "public/images/Competancies Model.svg",
         "Caption": "The Next Lap's Competencies Model"
     },
     {

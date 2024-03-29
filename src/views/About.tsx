@@ -61,9 +61,9 @@ export const About: React.FC<AboutProps> = ({
 
         {/* Values */}
         <div style={{ padding: "6.25rem 0rem 0rem" }}>
-            <img src="images/Triangle Red.svg" alt='Graphic' style={{ position: "relative", left: "0px", width: "40vw" }} />
+            <img src="public/images/Triangle Red.svg" alt='Graphic' style={{ position: "relative", left: "0px", width: "40vw" }} />
             <span />
-            <img src="images/Triangle Blue.svg" alt='Graphic' style={{ position: "relative", float: "right", right: "0px", width: "40vw" }} />
+            <img src="public/images/Triangle Blue.svg" alt='Graphic' style={{ position: "relative", float: "right", right: "0px", width: "40vw" }} />
         </div>
         <h1 id="values-section">Values</h1>
         <div id="value-container" className="main-container">
@@ -99,9 +99,9 @@ export const About: React.FC<AboutProps> = ({
 
         {/* Decors */}
         <div className="decoration">
-            <img src="images/Dot 1 Red.svg" alt='' style={{ position: "absolute", float: "right", right: "1320px", top: "1150px", width: "55px" }} />
-            <img src="images/Dot 2 Blue.svg" alt='' style={{ position: "absolute", left: "1310px", top: "600px", width: "55px" }} />
-            <img src="images/Circle 1 Red.svg" alt='' style={{ position: "absolute", left: "1370px", top: "920px", width: "130px", transform: "rotate(184.841deg)" }} />
+            <img src="public/images/Dot 1 Red.svg" alt='' style={{ position: "absolute", float: "right", right: "1320px", top: "1150px", width: "55px" }} />
+            <img src="public/images/Dot 2 Blue.svg" alt='' style={{ position: "absolute", left: "1310px", top: "600px", width: "55px" }} />
+            <img src="public/images/Circle 1 Red.svg" alt='' style={{ position: "absolute", left: "1370px", top: "920px", width: "130px", transform: "rotate(184.841deg)" }} />
         </div>
 
         {/* Footer */}

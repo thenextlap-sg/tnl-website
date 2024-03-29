@@ -69,9 +69,9 @@ export const Franchise: React.FC<FranchiseProps> = ({
 
         {/* Decors */}
         <div className="decorations">
-            <img src="images/Dot 1 Red.svg" alt='' style={{ position: "absolute", float: "right", right: "1380px", top: "950px", width: "55px" }} />
-            <img src="images/Dot 2 Blue.svg" alt='' style={{ position: "absolute", left: "1380px", top: "600px", width: "55px" }} />
-            <img src="images/Circle 1 Red.svg" alt='' style={{ position: "absolute", left: "1350px", top: "1300px", width: "130px", transform: "rotate(184.841deg)" }} />
+            <img src="public/images/Dot 1 Red.svg" alt='' style={{ position: "absolute", float: "right", right: "1380px", top: "950px", width: "55px" }} />
+            <img src="public/images/Dot 2 Blue.svg" alt='' style={{ position: "absolute", left: "1380px", top: "600px", width: "55px" }} />
+            <img src="public/images/Circle 1 Red.svg" alt='' style={{ position: "absolute", left: "1350px", top: "1300px", width: "130px", transform: "rotate(184.841deg)" }} />
         </div>
 
         {/* Footer */}
